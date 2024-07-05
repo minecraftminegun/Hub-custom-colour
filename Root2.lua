@@ -64,11 +64,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
     Admin = {
-        SchemeColor = Color3.fromRGB(255,165,0),
-        Background = Color3.fromRGB(184,134,11),
-        Header = Color3.fromRGB(218,165,32),
-        TextColor = Color3.fromRGB(255,215,0),
-        ElementColor = Color3.fromRGB(218,165,32)
+        SchemeColor = Color3.fromRGB(147,112,219),
+        Background = Color3.fromRGB(148,0,211),
+        Header = Color3.fromRGB(176,196,222),
+        TextColor = Color3.fromRGB(255,105,180),
+        ElementColor = Color3.fromRGB(139,0,139)
     },
     BloodTheme = {
         SchemeColor = Color3.fromRGB(227, 27, 27),
@@ -265,7 +265,7 @@ function Kavo.CreateLib(kavName, themeList)
     title.Font = Enum.Font.Gotham
     title.RichText = true
     title.Text = kavName
-    title.TextColor3 = Color3.fromRGB(245, 245, 245)
+    title.TextColor3 = Color3.fromRGB(0,0,255)
     title.TextSize = 16.000
     title.TextXAlignment = Enum.TextXAlignment.Left
 
