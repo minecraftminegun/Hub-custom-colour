@@ -65,7 +65,7 @@ local themeStyles = {
     },
     Admin = {
         SchemeColor = Color3.fromRGB(0,0,205),
-        Background = Color3.fromRGB(0,191,255),
+        Background = Color3.fromRGB(70,130,180),
         Header = Color3.fromRGB(25,25,112),
         TextColor = Color3.fromRGB(135,206,250),
         ElementColor = Color3.fromRGB(65,105,225)
