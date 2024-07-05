@@ -63,12 +63,12 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
-    LightTheme = {
-        SchemeColor = Color3.fromRGB(150, 150, 150),
-        Background = Color3.fromRGB(255,255,255),
-        Header = Color3.fromRGB(200, 200, 200),
-        TextColor = Color3.fromRGB(0,0,0),
-        ElementColor = Color3.fromRGB(224, 224, 224)
+    Admin = {
+        SchemeColor = Color3.fromRGB(184,134,11),
+        Background = Color3.fromRGB(218,165,32),
+        Header = Color3.fromRGB(255,215,0),
+        TextColor = Color3.fromRGB(240,230,140),
+        ElementColor = Color3.fromRGB(128,128,0)
     },
     BloodTheme = {
         SchemeColor = Color3.fromRGB(227, 27, 27),
@@ -153,8 +153,8 @@ function Kavo.CreateLib(kavName, themeList)
     end
     if themeList == "DarkTheme" then
         themeList = themeStyles.DarkTheme
-    elseif themeList == "LightTheme" then
-        themeList = themeStyles.LightTheme
+    elseif themeList == "Admin" then
+        themeList = themeStyles.Admin
     elseif themeList == "BloodTheme" then
         themeList = themeStyles.BloodTheme
     elseif themeList == "GrapeTheme" then
