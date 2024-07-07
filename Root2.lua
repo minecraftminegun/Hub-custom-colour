@@ -70,12 +70,12 @@ local themeStyles = {
         TextColor = Color3.fromRGB(135,206,250),
         ElementColor = Color3.fromRGB(65,105,225)
     },
-    BloodTheme = {
-        SchemeColor = Color3.fromRGB(227, 27, 27),
-        Background = Color3.fromRGB(10, 10, 10),
-        Header = Color3.fromRGB(5, 5, 5),
-        TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(20, 20, 20)
+    Trusted Friends = {
+        SchemeColor = Color3.fromRGB(160,82,45),
+        Background = Color3.fromRGB(210,180,140),
+        Header = Color3.fromRGB(139,69,19),
+        TextColor = Color3.fromRGB(112,128,144),
+        ElementColor = Color3.fromRGB(244,164,96)
     },
     GrapeTheme = {
         SchemeColor = Color3.fromRGB(166, 71, 214),
