@@ -71,11 +71,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(65,105,225)
     },
     TrustedFriends = {
-        SchemeColor = Color3.fromRGB(160,82,45),
-        Background = Color3.fromRGB(210,180,140),
-        Header = Color3.fromRGB(139,69,19),
-        TextColor = Color3.fromRGB(112,128,144),
-        ElementColor = Color3.fromRGB(244,164,96)
+        SchemeColor = Color3.fromRGB(255,165,0),
+        Background = Color3.fromRGB(240,230,140),
+        Header = Color3.fromRGB(255,140,0),
+        TextColor = Color3.fromRGB(255,215,0),
+        ElementColor = Color3.fromRGB(218,165,32)
     },
     GrapeTheme = {
         SchemeColor = Color3.fromRGB(166, 71, 214),
