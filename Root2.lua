@@ -70,7 +70,7 @@ local themeStyles = {
         TextColor = Color3.fromRGB(135,206,250),
         ElementColor = Color3.fromRGB(65,105,225)
     },
-    Trusted Friends = {
+    TrustedFriends = {
         SchemeColor = Color3.fromRGB(160,82,45),
         Background = Color3.fromRGB(210,180,140),
         Header = Color3.fromRGB(139,69,19),
@@ -155,8 +155,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.DarkTheme
     elseif themeList == "Admin" then
         themeList = themeStyles.Admin
-    elseif themeList == "BloodTheme" then
-        themeList = themeStyles.BloodTheme
+    elseif themeList == "TrustedFriends" then
+        themeList = themeStyles.TrustedFriends
     elseif themeList == "GrapeTheme" then
         themeList = themeStyles.GrapeTheme
     elseif themeList == "Ocean" then
