@@ -64,10 +64,10 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
 	Fallen = {
-	SchemeColor = Color3.fromRGB(0,0,120),
-	Background = Color3.fromRGB(0,0,100),
-	Header = Color3.fromRGB(0,0,85),
-	TextColor = Color3.fromRGB(0,0,0),
+	SchemeColor = Color3.fromRGB(40,0,120),
+	Background = Color3.fromRGB(45,0,100),
+	Header = Color3.fromRGB(45,0,85),
+	TextColor = Color3.fromRGB(35,0,185),
 	ElementColor = Color3.fromRGB(65,0,145),
 	},
     Admin = {
@@ -271,10 +271,10 @@ function Kavo.CreateLib(kavName, themeList)
     title.BorderSizePixel = 0
     title.Position = UDim2.new(0.0171428565, 0, 0.344827592, 0)
     title.Size = UDim2.new(0, 204, 0, 8)
-    title.Font = Enum.Font.Gotham
+    title.Font = Enum.Font.Oswald
     title.RichText = true
     title.Text = kavName
-    title.TextColor3 = Color3.fromRGB(0,0,255)
+    title.TextColor3 = Color3.fromRGB(35,0,145)
     title.TextSize = 16.000
     title.TextXAlignment = Enum.TextXAlignment.Left
 
