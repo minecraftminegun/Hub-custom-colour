@@ -64,11 +64,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
 	Fallen = {
-	SchemeColor = Color3.fromRGB(40,0,120),
-	Background = Color3.fromRGB(45,0,100),
-	Header = Color3.fromRGB(45,0,85),
-	TextColor = Color3.fromRGB(35,0,185),
-	ElementColor = Color3.fromRGB(65,0,145),
+	SchemeColor = Color3.fromRGB(10,0,120),
+	Background = Color3.fromRGB(12.5,0,100),
+	Header = Color3.fromRGB(15,0,85),
+	TextColor = Color3.fromRGB(10,0,185),
+	ElementColor = Color3.fromRGB(22.5,0,145),
 	},
     Admin = {
         SchemeColor = Color3.fromRGB(0,0,205),
