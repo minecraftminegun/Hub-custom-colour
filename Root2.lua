@@ -64,7 +64,7 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
 	Fallen = {
-	SchemeColor = Color3.fromRGB(10,0,120),
+	SchemeColor = Color3.fromRGB(8.5,0,120),
 	Background = Color3.fromRGB(12.5,0,100),
 	Header = Color3.fromRGB(15,0,85),
 	TextColor = Color3.fromRGB(10,0,185),
