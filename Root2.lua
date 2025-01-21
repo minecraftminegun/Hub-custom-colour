@@ -63,6 +63,13 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
+	Fallen = {
+	SchemeColor = Color3.fromRGB(0,0,120),
+	Background = Color3.fromRGB(0,0,100),
+	Header = Color3.fromRGB(0,0,85),
+	TextColor = Color3.fromRGB(0,0,0),
+	ElementColor = Color3.fromRGB(65,0,145),
+	},
     Admin = {
         SchemeColor = Color3.fromRGB(0,0,205),
         Background = Color3.fromRGB(0,0,139),
@@ -169,6 +176,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Synapse
     elseif themeList == "Serpent" then
         themeList = themeStyles.Serpent
+    elseif themeList == "Fallen" then
+        themeList = themeStyles.Fallen
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
