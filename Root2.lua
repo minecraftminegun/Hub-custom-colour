@@ -155,12 +155,6 @@ function Kavo:ToggleUI()
 end
 
 function Kavo.CreateLib(kavName, themeList)
-local Button = Instance.new("TextButton")
-    Button.Text = "Menu"
-    Button.TextColor = fromRGB(0,0,0)
-    Button.BackgroundColor3 = fromRGB(15,0,185)
-    Button.Position = 0.85,0,5,0
-	
     if not themeList then
         themeList = themes
     end
