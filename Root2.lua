@@ -155,6 +155,12 @@ function Kavo:ToggleUI()
 end
 
 function Kavo.CreateLib(kavName, themeList)
+local Button = Instance.new("TextButton")
+    Button.Text = "Menu"
+    Button.TextColor = fromRGB(0,0,0)
+    Button.BackgroundColor3 = fromRGB(15,0,185)
+    Button.Position = (0.85,0,5,0)
+	
     if not themeList then
         themeList = themes
     end
@@ -297,7 +303,7 @@ function Kavo.CreateLib(kavName, themeList)
 			Position = UDim2.new(0, Main.AbsolutePosition.X + (Main.AbsoluteSize.X / 2), 0, Main.AbsolutePosition.Y + (Main.AbsoluteSize.Y / 2))
 		}):Play()
         wait(1)
-        ScreenGui:Destroy()
+        ScreenGui.Visible = false
     end)
 
     MainSide.Name = "MainSide"
