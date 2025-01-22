@@ -297,7 +297,7 @@ function Kavo.CreateLib(kavName, themeList)
 			Position = UDim2.new(0, Main.AbsolutePosition.X + (Main.AbsoluteSize.X / 2), 0, Main.AbsolutePosition.Y + (Main.AbsoluteSize.Y / 2))
 		}):Play()
         wait(1)
-        ScreenGui.Visible = false
+        MainHeader.Visible = false
     end)
 
     MainSide.Name = "MainSide"
@@ -356,10 +356,10 @@ local keybind = "k"
 
 Mouse.KeyDown:Connect(function(key)
 	if key == keybind then
-		if ScreenGui.Visible == true then
-			ScreenGui.Visible = false
-		elseif ScreenGui.Visible == false then
-			ScreenGui.Visible = true
+		if MainHeader.Visible == true then
+			MainHeader.Visible = false
+		elseif MainHeader.Visible == false then
+			MainHeader.Visible = true
 		end
 	end
 end)
