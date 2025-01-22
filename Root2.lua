@@ -352,7 +352,7 @@ function Kavo.CreateLib(kavName, themeList)
 
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
-local Label = Instance.new("ScreenGui")
+local Label = Instance.new("Frame")
 local keybind = "k"
 
 Mouse.KeyDown:Connect(function(key)
