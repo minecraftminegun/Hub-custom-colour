@@ -350,6 +350,21 @@ function Kavo.CreateLib(kavName, themeList)
     infoContainer.Position = UDim2.new(0.299047619, 0, 0.874213815, 0)
     infoContainer.Size = UDim2.new(0, 368, 0, 33)
 
+local Player = game:GetService("Players").LocalPlayer
+local Mouse = Player:GetMouse()
+local Label = script.Parent.ScreenGui
+local keybind = "k"
+
+Mouse.KeyDown:Connect(function(key)
+	if key == keybind then
+		if Label.Visible == true then
+			Label.Visible = false
+		elseif Label.Visible == false then
+			Label.Visible = true
+		end
+	end
+end)
+
     
     coroutine.wrap(function()
         while wait() do
