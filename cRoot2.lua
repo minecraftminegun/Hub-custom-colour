@@ -297,7 +297,8 @@ function Kavo.CreateLib(kavName, themeList)
 			Position = UDim2.new(0, Main.AbsolutePosition.X + (Main.AbsoluteSize.X / 2), 0, Main.AbsolutePosition.Y + (Main.AbsoluteSize.Y / 2))
 		}):Play()
         wait(1)
-        MainHeader.Visible and Main.Visible = false
+        MainHeader.Visible = false
+	Main.Visible = false
     end)
 
     MainSide.Name = "MainSide"
