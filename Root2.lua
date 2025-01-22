@@ -361,21 +361,6 @@ function Kavo.CreateLib(kavName, themeList)
         end
     end)()
 
-	-- Gui close/opening
-    local Gui = ScreenGui
-
-local function onKeyPress(input)
-    if input.KeyCode == Enum.KeyCode.Insert then
-        if Gui.Visible == true then
-            Gui.Visible = false
-        else
-            Gui.Visible = true
-        end
-    end
-end
-
-game:GetService("UserInputService").InputBegan:Connect(onKeyPress)
-
     function Kavo:ChangeColor(prope,color)
         if prope == "Background" then
             themeList.Background = color
