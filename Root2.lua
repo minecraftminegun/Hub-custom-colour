@@ -356,10 +356,10 @@ local keybind = "k"
 
 Mouse.KeyDown:Connect(function(key)
 	if key == keybind then
-		if MainHeader.Visible == true then
-			MainHeader.Visible = false
-		elseif MainHeader.Visible == false then
-			MainHeader.Visible = true
+		if MainHeader.Visible == true and Main.Visible == true then
+			MainHeader.Visible = false and Main.Visible = false
+		elseif MainHeader.Visible == false and Main.Visible == false then
+			MainHeader.Visible = true and Main.Visible = true
 		end
 	end
 end)
