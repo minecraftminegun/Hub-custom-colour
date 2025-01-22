@@ -352,15 +352,14 @@ function Kavo.CreateLib(kavName, themeList)
 
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
-local Label = Instance.new("Frame")
 local keybind = "k"
 
 Mouse.KeyDown:Connect(function(key)
 	if key == keybind then
-		if Label.Visible == true then
-			Label.Visible = false
-		elseif Label.Visible == false then
-			Label.Visible = true
+		if ScreenGui.Visible == true then
+			ScreenGui.Visible = false
+		elseif ScreenGui.Visible == false then
+			ScreenGui.Visible = true
 		end
 	end
 end)
