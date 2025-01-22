@@ -365,7 +365,7 @@ function Kavo.CreateLib(kavName, themeList)
     local Gui = ScreenGui
 
 local function onKeyPress(input)
-    if input.KeyCode == Enum.KeyCode.F9 then
+    if input.KeyCode == Enum.KeyCode.Insert then
         if Gui.Visible == true then
             Gui.Visible = false
         else
