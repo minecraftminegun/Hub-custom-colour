@@ -361,6 +361,7 @@ function Kavo.CreateLib(kavName, themeList)
         end
     end)()
 
+	-- Gui close/opening
     local Gui = ScreenGui
 
 local function onKeyPress(input)
